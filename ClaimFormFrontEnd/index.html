@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+<!--    <link rel="icon" type="image/svg+xml" href="/vite.svg" />-->
+    <link rel="stylesheet" href="./src/assets/AppThemes/Bootstrap5/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/assets/AppThemes/Bootstrap5/Custom.css">
+    <link rel="stylesheet" href="./src/assets/AppThemes/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--    <link rel="stylesheet" href="./src/assets/AppThemes/SAPSClaimForm/SAPSClaimForm.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+  <script>
+
+    function setOverflowHidden() {
+      console.log("something changed")
+      const iFrame = document.getElementById('RecaptchaIFrame');
+      if(iFrame){
+        console.log("iframe exists")
+        iFrame.onload = function() {
+          // Access the content of the iframe
+          const iframe = document.getElementById('RecaptchaIFrame').contentWindow.document;
+
+          // Find the element with ID 'Test' inside the iframe
+          const element = iframe.getElementById('rc-anchor-container');
+
+          // Set the overflow to hidden
+          if (element) {
+            element.style.overflow = 'hidden';
+          }
+        };
+      }
+    }
+
+
+    document.addEventListener('DOMContentLoaded', setOverflowHidden);
+  </script>
+</html>

@@ -1,0 +1,43 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:Label runat="server" CssClass="label"></asp:Label>
+
+
+<sbc:TrackingTextBox runat="server" SkinID="Plain"></sbc:TrackingTextBox>
+<sbc:TrackingTextBox runat="server" CssClass="form-control auto-grow"></sbc:TrackingTextBox>
+<sbc:TrackingTextBox runat="server" SkinID="NoAutoGrow" CssClass="form-control no-auto-grow"></sbc:TrackingTextBox>
+<sbc:TrackingDropDownList runat="server" CssClass="form-control form-select"></sbc:TrackingDropDownList>
+<sbc:TrackingCheckBox runat="server" class="form-check"></sbc:TrackingCheckBox>
+<sbc:TrackingLabel runat="server" SkinID="SingleLine" class="single-line"></sbc:TrackingLabel>
+
+<sbc:HeaderForcedGridView runat="server" CssClass="table table-striped table-hover table-sm" CellPadding="0" GridLines="None">
+    <RowStyle CssClass="Odd" />
+    <HeaderStyle CssClass="GridHeader" />
+    <AlternatingRowStyle CssClass="Even" />
+    <SelectedRowStyle CssClass="SelectedRow" />
+    <FooterStyle CssClass="FooterRow" />
+    <PagerStyle CssClass="GridPager" />
+</sbc:HeaderForcedGridView>
+
+<sbc:TrackingRadioButtonList runat="server" CssClass="radio-button-list" RepeatLayout="Flow"></sbc:TrackingRadioButtonList>
+
+
+<asp:DataList runat="server" RepeatLayout="Flow" CssClass="data-list"></asp:DataList>
+<asp:DataList runat="server" RepeatLayout="Flow" CssClass="data-list-plain" SkinID="Plain"></asp:DataList>
+<%--
+<asp:LinkButton runat="server" CssClass="btn btn-primary"></asp:LinkButton>
+--%>

@@ -1,0 +1,64 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<%@ Register tagPrefix="sbc" namespace="Sbc.Web" assembly="SBC.Web" %>
+
+<sbc:TrackingCheckBox runat="server" class="CheckBox"></sbc:TrackingCheckBox>
+<sbc:TrackingTextBox runat="server" CssClass="Field"></sbc:TrackingTextBox>
+<sbc:TrackingDropDownList runat="server" CssClass="DropDownList"></sbc:TrackingDropDownList>
+<sbc:TrackingRadioButtonList runat="server" CssClass="CheckBox" CellSpacing="0" CellPadding="0"></sbc:TrackingRadioButtonList>
+<sbc:SectionHeader runat="server" class="SectionHeader"></sbc:SectionHeader>
+
+<ajax:ModalPopupExtender runat="server" BackgroundCssClass="modalBackground"></ajax:ModalPopupExtender>
+
+
+<asp:GridView runat="server" CssClass="Grid" CellPadding="0" GridLines="None">
+    <RowStyle CssClass="Odd" />
+    <HeaderStyle CssClass="GridHeader" />
+    <AlternatingRowStyle CssClass="Even" />
+    <SelectedRowStyle CssClass="SelectedRow" />
+    <PagerStyle CssClass="GridPager" />
+</asp:GridView>
+
+<asp:GridView runat="server" CssClass="Grid NoSideMargins" CellPadding="0" GridLines="None" SkinID="NoSideMargins">
+    <RowStyle CssClass="Odd" />
+    <HeaderStyle CssClass="GridHeader" />
+    <AlternatingRowStyle CssClass="Even" />
+    <SelectedRowStyle CssClass="SelectedRow" />
+    <PagerStyle CssClass="GridPager" />
+</asp:GridView>
+
+
+<sbc:HeaderForcedGridView runat="server" CssClass="Grid" CellPadding="0" GridLines="None" >
+    <RowStyle CssClass="Odd" />
+    <HeaderStyle CssClass="GridHeader" />
+    <AlternatingRowStyle CssClass="Even" />
+    <SelectedRowStyle CssClass="SelectedRow" />
+    <PagerStyle CssClass="GridPager" />
+</sbc:HeaderForcedGridView>
+
+<asp:DataList runat="server" CssClass="DataList" CellPadding="1" GridLines="None" width="100%">
+    <ItemStyle CssClass="OddItem" />
+    <AlternatingItemStyle CssClass="EvenItem" />
+</asp:DataList>
+
+<asp:DataList runat="server" CssClass="DataList" CellPadding="0" CellSpacing="0" GridLines="None" width="100%" SkinID="PDFExpandedGrid">
+</asp:DataList>
+
+<asp:DataList runat="server" CellPadding="0" GridLines="None" width="100%" SkinID="Plain">
+</asp:DataList>
+
+<asp:TextBox runat="server" CssClass="Field"></asp:TextBox>
+ <asp:ListBox runat="server" CssClass="ListBox"></asp:ListBox>

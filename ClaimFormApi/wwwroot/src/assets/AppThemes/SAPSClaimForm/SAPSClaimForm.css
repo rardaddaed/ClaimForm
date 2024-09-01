@@ -1,0 +1,1326 @@
+﻿/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 8 version
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    padding: 0;
+    font-size: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+div, h1, h2, h3, h4, h5, h6, p, pre, a, li, img, tr {
+    page-break-inside: avoid;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    /*list-style: none;*/
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body, p, div, span, h1, h2, h3, h4, h5, h6, ul, li, ol, dl, dd, dt, hr, form, input {
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+p {
+    margin: 0px;
+}
+
+@media screen {
+    .MainBody {
+        background-color: #E6E6E6;
+    }
+}
+
+@media print {
+    .MainBody {
+        background-color: white;
+    }
+}
+
+a {
+    font-family: Arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #004AEE;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000066;
+}
+
+body {
+    position: relative;
+    margin: 4px;
+}
+
+#PageContent {
+    margin: 0px auto 0 auto;
+    width: 950px;
+    background-color: White;
+    border: solid 10px white;
+    min-height: 400px;
+    overflow: visible;
+    -webkit-box-shadow: 0 0 15px grey;
+    box-shadow: 0 0 15px grey;
+    border-radius: 4px;
+}
+
+div.PageHeader {
+    vertical-align: top;
+}
+
+div.PageHeader {
+    overflow: hidden;
+    /*background-image: url(../../images/logo_r.gif); */
+    background-position: left;
+    background-repeat: no-repeat;
+    border-top: solid 2px #A51018;
+    border-left: solid 2px #A51018;
+    border-right: solid 5px #A51018;
+    border-bottom: solid 2px #A51018;
+    background-color: #A51018;
+    border-radius: 4px;
+}
+
+.Description {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+div.PageHeader h1 {
+    margin-left: 60px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 18px 1px 0px 0px;
+    font-weight: 900;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.PageHeader {
+    font-size: 20pt;
+}
+
+
+div.PageHeader .HeaderTitle {
+    color: White;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+div.PageHeader .HeaderStatus {
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.PageSeparator {
+    width: 1000px;
+    border: solid 1px black;
+}
+
+#NavigationPanel {
+    margin-top: 24px;
+    width: 160px;
+    float: left;
+}
+
+#NavigationList {
+    border-left: solid 1px #A51018;
+    border-right: solid 1px #A51018;
+    border-bottom: solid 1px #A51018;
+}
+
+.NavigationItem {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.NavImg {
+    padding-top: 1px;
+    padding-left: 2px;
+    position: absolute;
+}
+
+.NavText {
+    margin-left: 14px;
+    cursor: hand;
+    padding-left: 2px;
+}
+
+.NavSelectedText {
+    margin-left: 14px;
+    cursor: hand;
+    padding-left: 2px;
+    color: black;
+    background-color: #b7ccf7;
+}
+
+#NavigationHelp {
+    margin-top: 10px;
+    background-color: White;
+    text-align: left;
+}
+
+.MenuHeader {
+    font-weight: 900;
+    font-size: 10pt;
+    color: white;
+    font-family: Tahoma, Arial, sans-serif;
+    padding-left: 2px;
+    height: 18px;
+    border-top: solid 1px #A51018;
+    border-left: solid 1px #A51018;
+    border-right: solid 1px #A51018;
+    background-color: #A51018;
+}
+
+#FormSection {
+    margin-left: 5px;
+    float: left;
+    width: 919px;
+    background-color: White;
+}
+
+.FormTitle {
+    font-size: 14pt;
+    font-weight: bold;
+    min-height: 20px;
+    margin-bottom: 3px;
+}
+
+.FormContent {
+    border: solid 1px #A51018;
+    page-break-inside: auto;
+    border-radius: 4px;
+}
+
+.PortalTitle {
+    font-size: 12pt;
+    font-weight: bold;
+    height: 19px;
+    border-bottom: solid 1px black;
+    margin: 4px;
+}
+
+.PageBreakAfter {
+    page-break-after: always;
+}
+
+#HelpSection {
+    float: right;
+    margin-top: 22px;
+    margin-left: 3px;
+    width: 210px;
+    border: solid 1px #A51018;
+}
+
+#HelpSection .HelpHeader {
+    font-weight: 900;
+    font-size: 11pt;
+    color: white;
+    background-color: #A51018;
+    /*background: #A51018 url('../../images/strip.jpg') repeat-x;*/
+    font-family: Tahoma, Arial, sans-serif;
+    padding-left: 2px;
+    height: 18px;
+}
+
+#HelpContent {
+    margin: 2px;
+}
+
+#JsonSection {
+    clear: both;
+    color: #999999;
+}
+
+.SectionHeader {
+    font-weight: bold;
+    font-size: 15pt;
+    color: #A51018;
+    font-family: Tahoma, Arial, sans-serif;
+    padding-top: 2px;
+    padding-left: 2px;
+    height: 24px;
+}
+
+.GridSection {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.CheckBox input {
+    float: left;
+}
+
+.CheckBox label {
+    margin-left: 20px;
+    margin-top: 2px;
+    display: block;
+}
+
+.Grid {
+    border: solid 1px #A51018;
+    background-color: White;
+    margin-left: 8px;
+}
+
+.InlineGrid {
+    border: solid 1px #A51018;
+    background-color: White;
+}
+
+.NoBorderGrid {
+    border: none;
+    background-color: White;
+}
+
+.NoBorderGrid .Odd td, .NoBorderGrid .Even td, .NoBorderGrid .OddItem, .NoBorderGrid .EvenItem {
+    border: solid 1px white;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.DataList {
+    border: solid 1px black;
+    background-color: White;
+    margin-left: 8px;
+}
+
+.GridPager td {
+    text-align: right;
+    /*	color: white;
+    font-weight: bold;
+    background-color: #339933;*/
+}
+
+.GridPager td a {
+    margin-right: 3px;
+}
+
+.GridPager td span {
+    margin-right: 3px;
+}
+
+.GridHeader th {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    background-color: #A51018;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+.ScrollableGrid .GridHeader th {
+    position: relative;
+    z-index: 7;
+}
+
+
+.GridHeader a {
+    text-decoration: none;
+    color: white;
+}
+
+.GridHeader a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.GridPager td {
+    text-align: right;
+    /*	color: white;
+    font-weight: bold;
+    background-color: #339933;*/
+}
+/*
+.GridPager a { text-decoration: none; color: white; }
+.GridPager a:hover { text-decoration: underline; color: white; }*/
+
+
+.Odd td {
+    border-bottom: solid 1px #A51018;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.OddItem {
+    border-bottom: solid 1px white;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-right: solid 1px White;
+    border-left: solid 1px White;
+}
+
+.Odd td td, .Even td td {
+    border-bottom: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-right: none;
+    border-left: none;
+}
+
+.Even td {
+    border-bottom: solid 1px #A51018;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.EvenItem {
+    border-bottom: solid 1px white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-right: solid 1px White;
+    border-left: solid 1px White;
+}
+
+.Grid td .PdfField {
+    border: none;
+}
+
+.AdjustItem {
+    margin-left: -2px;
+}
+
+.SelectedRow td {
+    border-bottom: solid 1px #555555;
+    background-color: #888888;
+    color: White;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.Even td input {
+}
+
+textarea {
+    font-family: Arial;
+    font-size: 10pt;
+    border: solid 1px #A5A5A5;
+}
+
+select, .Field, .Text, .Date, .Time, .DateTime, .Suburb, .State, .Postcode, .Integer, .Time24, .Phone, .Double, .Decimal, .Money {
+    font-family: Arial;
+    font-size: 10pt;
+    border: solid 1px #A5A5A5;
+}
+
+.DropDownList {
+    font-family: Arial;
+    font-size: 10pt;
+    border: solid 1px grey;
+}
+
+.ListBox {
+    font-family: Arial;
+    font-size: 10pt;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+
+.PdfField {
+    font-family: Arial;
+    font-size: 10pt;
+    font-style: italic;
+    color: black;
+    border: solid 1px #202020;
+    word-wrap: break-word;
+}
+
+.Suburb {
+    text-transform: uppercase;
+}
+
+.DisabledField {
+    border: solid 1px #A5A5A5;
+    font-size: 10pt;
+    color: Black;
+    font-family: Arial;
+    background-color: #DDDDDD !important;
+}
+
+span.DisabledField {
+    min-height: 19px;
+    line-height: 19px;
+}
+
+.DisabledText {
+    border: solid 1px #A5A5A5;
+    font-size: 10pt;
+    color: Black;
+    font-family: Arial;
+    background-color: #DDDDDD !important;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.Hidden {
+    display: none;
+}
+
+.Errors {
+    font-family: Arial;
+    font-size: 10pt;
+    color: Red;
+}
+
+.ErrorField {
+    border: solid 1px red;
+    background-color: #FFDDDD;
+}
+
+
+.ErrorLabel {
+    color: Red;
+}
+
+.CompletionList {
+    z-index: 100001 !important;
+    text-align: left;
+    cursor: default;
+    list-style: none;
+    padding: 0px;
+    margin: 0px !important;
+    border: solid 1px #A51018;
+}
+
+.modalBackground {
+    background-color: Gray;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.ajax__calendar_container {
+    z-index: 100001;
+}
+
+.HelpButton {
+    background-color: transparent;
+    border: none;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url('../../images/help.png');
+    cursor: hand;
+    height: 16px;
+    width: 16px;
+    Z-INDEX: 112;
+    position: absolute;
+}
+
+input.HelpButton:hover {
+    text-decoration: underline;
+}
+
+.RiskLabel {
+    text-align: center;
+}
+
+.Mandatory {
+    background-color: LemonChiffon !important;
+}
+
+TABLE.Mandatory {
+    border: solid 1px #A5A5A5;
+}
+
+SELECT.Mandatory {
+    background-color: LemonChiffon !important;
+}
+
+.CalendarImage {
+    /* padding-left: 2px; */
+}
+
+.SummarySection {
+    border-bottom: solid 1px black;
+}
+
+/* CR08/2012 Show Hide CSS */
+.more {
+    display: none;
+    border-bottom: 1px solid #666;
+}
+
+a.showLink, a.hideLink {
+    text-decoration: none;
+    color: #36f;
+    background: transparent url(down.gif) no-repeat left;
+    padding-left: 40px;
+}
+
+a.hideLink {
+    background: transparent url(up.gif) no-repeat left;
+}
+
+a.showLink:hover, a.hideLink:hover {
+    border-bottom: 1px dotted #36f;
+}
+
+.NoSideMargins {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.IconImg {
+    margin-right: 3px;
+    border: solid 0px white;
+}
+
+.OddItemBorderless, .OddBorderless td {
+    border-bottom: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+}
+
+.EvenItemBorderless, .EvenBorderless td {
+    border-bottom: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+}
+
+.Scroll {
+    overflow: scroll;
+}
+
+.FloatLeft {
+    float: left;
+    margin-left: 7px;
+}
+
+.FloatLeftNoMargin {
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.FloatRight {
+    float: right;
+    margin-right: 7px;
+}
+
+.Clear {
+    clear: both;
+    height: 0px;
+}
+
+.FullWidthDiv {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.HelpTextPopup {
+    width: 600px;
+}
+
+.HelpTextContent {
+    margin: 7px;
+}
+
+.HelpTextScrollable {
+    margin: 7px;
+    max-height: 650px;
+    overflow-y: scroll;
+}
+
+.HelpTextPopup2 {
+    width: 600px;
+    height: 900px;
+    overflow-y: scroll;
+}
+
+.Overdue_Red {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Overdue_Green {
+    background-color: #268c26;
+    color: #FFFFFF;
+    font-weight: bold;
+    min-height: 12px;
+    text-align: center;
+}
+
+.Overdue_Red, .Overdue_Green {
+    width: 95%;
+}
+
+.ScrollableGrid .Grid, .ScrollableGrid .CheckBoxList, .ScrollableGrid .DataList, .FlexiHeightGrid .Grid {
+    border: none;
+}
+
+.ScrollableGrid .GridContainer, .FlexiHeightGrid .GridContainer {
+    padding: 0px;
+}
+
+Container > div {
+    border: none;
+}
+
+.ScrollableGrid {
+    margin: 8px;
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 8;
+    position: relative;
+}
+
+.ScrollableGrid .Grid, .ScrollableGrid .DataList, .FlexiHeightGrid .Grid {
+    border: none;
+    margin: 0px;
+}
+
+.ScrollableGrid .Grid, .ScrollableGrid .DataList, .FlexiHeightGrid .Grid {
+    border: none;
+    margin: 0px;
+}
+
+.ScrollableGrid a:visited {
+    color: blue;
+}
+
+.ScrollableGrid .GridHeader th {
+    position: relative;
+    z-index: 7;
+}
+
+.ConflictScrollableGrid {
+    border: solid 1px #000077;
+    margin: 8px;
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 8;
+    height: 120px;
+}
+
+.mceContentBody {
+    background-color: White;
+}
+
+.CalendarTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 0px;
+    table-layout: fixed;
+    border: solid 1px #A51018;
+    background-color: White;
+}
+
+.CalendarTableHeader th {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    background-color: #A51018;
+    height: 20px;
+    border-right: solid 1px #A51018;
+    border-left: solid 1px #A51018;
+    position: relative;
+    z-index: 7;
+}
+
+.CalendarTableRow td {
+    border-bottom: solid 1px #A51018;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-right: solid 1px #A51018;
+    border-left: solid 1px #A51018;
+    vertical-align: top;
+}
+
+.CalendarStatus_Green, .CalendarStatus_Blue, .CalendarStatus_Red, .CalendarStatus_Purple, .CalendarStatus_Orange, .CalendarStatus_Yellow, .CalendarStatus_Gray, .CalendarStatus_White {
+    color: black;
+    font-weight: bold;
+    min-height: 12px;
+    text-align: left;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.CalendarStatus_Green {
+    background-color: #8DC68D;
+}
+
+.CalendarStatus_Blue {
+    background-color: #7094FF;
+}
+
+.CalendarStatus_Red {
+    background-color: #E26F6F;
+}
+
+.CalendarStatus_Purple {
+    background-color: #CD82E6;
+}
+
+.CalendarStatus_Orange {
+    background-color: #FFBD5C;
+}
+
+.CalendarStatus_Yellow {
+    background-color: #FFFF94;
+}
+
+.CalendarStatus_Gray {
+    background-color: #CCCCCC;
+}
+
+.CalendarStatus_White {
+    background-color: white;
+}
+
+.CalendarStatus_Green td, .CalendarStatus_Blue td, .CalendarStatus_Red td, .CalendarStatus_Purple td, .CalendarStatus_Orange td, .CalendarStatus_Yellow td, .CalendarStatus_Gray td, .CalendarStatus_White td {
+    padding: 8px 8px 8px 8px;
+}
+
+.CalendarLegendTable {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.MonthlyCalendarLabel {
+    background-color: #30AC59;
+    color: White;
+    font-weight: bold;
+    padding: 2px 0px 2px 0px;
+}
+
+.MonthlyCalendarEmpty {
+    min-height: 60px;
+}
+
+.SBCCal .ajax__calendar_container {
+    background-color: #f2f2f2;
+    width: 230px;
+    position: relative;
+    z-index: 10001;
+}
+
+.SBCCal .ajax__calendar_header {
+    background-color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.SBCCal .ajax__calendar_title,
+.SBCCal .ajax__calendar_next,
+.SBCCal .ajax__calendar_prev {
+    color: #004080;
+    padding-top: 3px;
+}
+
+.SBCCal .ajax__calendar_body {
+    background-color: white;
+    border: solid 1px #cccccc;
+    width: 190px;
+}
+
+.SBCCal .ajax__calendar_days {
+    width: 100%;
+}
+
+.SBCCal .ajax__calendar_days table {
+    width: 100%;
+}
+
+.SBCCal .ajax__calendar_dayname {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+
+.SBCCal .ajax__calendar_day {
+    text-align: center;
+    width: 22px;
+}
+
+.SBCCal .ajax__calendar_hover .ajax__calendar_day,
+.SBCCal .ajax__calendar_hover .ajax__calendar_month,
+.SBCCal .ajax__calendar_hover .ajax__calendar_year,
+.SBCCal .ajax__calendar_active {
+    color: white;
+    font-weight: bold;
+    background-color: #004080;
+}
+
+.SBCCal .ajax__calendar_today {
+    font-weight: bold;
+}
+
+.SBCCal .ajax__calendar_other {
+    color: #bbbbbb;
+}
+
+.SBCCal .ajax__calendar_hover .ajax__calendar_today,
+.SBCCal .ajax__calendar_hover .ajax__calendar_title {
+    color: #004080;
+}
+
+.TodayDate {
+    background-color: red !important;
+    color: white !important;
+}
+
+div.rcbSlide {
+    z-index: 9999 !important;
+}
+
+.Mandatory .rcbInput {
+    background-color: LemonChiffon !important;
+}
+
+td.RowWidget {
+    background-color: #DDDDDD;
+}
+
+td.SelectedRowWidget {
+    background-image: url('../../images/rowwidget.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.riskLabel-low, .RiskRate_Low {
+    background-color: #92D050;
+}
+
+.riskLabel-moderate, .RiskRate_Moderate {
+    background-color: #FFFF00;
+}
+
+.riskLabel-high, .RiskRate_High {
+    background-color: #FFC000;
+}
+
+.riskLabel-extreme, .RiskRate_Extreme {
+    background-color: #FF0000;
+    color: White;
+}
+
+.RiskRate_Extreme, .RiskRate_High, .RiskRate_Moderate,
+.RiskRate_Low {
+    text-align: center;
+    font-weight: bold;
+    width: 95%;
+}
+
+.ModalDialog .ModalDialogTitle {
+    background-color: #A51018;
+    color: white;
+    font-weight: bold;
+    height: 20px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.ModalDialog iframe {
+    position: absolute;
+    top: 0px;
+    padding-top: 20px;
+    overflow: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.ModalDialog {
+    border: solid 2px #A51018;
+    background-color: White;
+}
+
+.NoChrome iframe {
+    position: absolute;
+    top: 0px;
+    padding-top: 0px;
+    overflow: none;
+    width: 100%;
+    height: 100%;
+}
+
+.ModalBackground {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    bottom: 0px;
+    background-color: Black;
+    opacity: 0.50;
+}
+
+.MessageBox {
+    width: 600px;
+}
+
+.MessageBox .MessageText {
+    background-color: White;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    max-height: 600px;
+    overflow: auto;
+    overflow-x: hidden;
+    padding-left: 100px;
+    white-space: pre-wrap; /* CSS 3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.MessageBox .Warning, .MessageBox .Exclamation, .MessageBox .Error, .MessageBox .Hand, .MessageBox .Stop, .MessageBox .Question, .MessageBox .Information, .MessageBox .Asterisk {
+    background-repeat: no-repeat;
+    background-position: 25px 15px;
+}
+
+.MessageBox .Warning, .MessageBox .Exclamation {
+    background-image: url( '../../images/MessageBox_Warning.png' );
+}
+
+.MessageBox .Error, .MessageBox .Hand, .MessageBox .Stop {
+    background-image: url( '../../images/MessageBox_Error.png' );
+}
+
+.MessageBox .Question {
+    background-image: url( '../../images/MessageBox_Question.png' );
+}
+
+.MessageBox .Information, .MessageBox .Asterisk {
+    background-image: url( '../../images/MessageBox_Information.png' );
+}
+
+.MessageBox .MessageButtons {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.MessageBox .MessageButtons .MessageButton {
+    margin-left: 6px;
+    margin-right: 2px;
+    width: 80px;
+}
+
+.LinkBar {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 3px;
+    height: 28px;
+}
+
+.LinkBarLeft {
+    float: left;
+    padding-top: 3px;
+}
+
+.LinkBarRight {
+    float: right;
+    padding-right: 4px;
+    padding-top: 3px;
+}
+
+.LinkBarRight a {
+    padding-left: 8px;
+}
+
+.CheckBoxList tr {
+    height: 25px;
+}
+
+.PopupCheckBoxListButtonSection {
+    float: right;
+    margin: 7px;
+}
+
+.AllowBreakInside {
+    page-break-inside: auto;
+}
+
+#EmployeeLoginButtonSection {
+    position: relative;
+    height: 100px;
+    background-color: #002E59;
+    color: White;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+#EmployeeLoginButtonSection:hover {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+#EmployeeLoginButtonSection:active {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+}
+
+#WHSLoginButtonSection {
+    position: relative;
+    height: 100px;
+    background-color: #FB8B00;
+    color: White;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+#WHSLoginButtonSection:hover {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+#WHSLoginButtonSection:active {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+}
+
+#SupervisorLoginSection {
+    position: relative;
+    height: 100px;
+    background-color: #A51018;
+    color: White;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#SupervisorLoginSection:hover {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+#SupervisorLoginSection:active {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+}
+
+.LoginButton {
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    border-radius: 10px;
+    color: White;
+}
+
+.LoginButton:hover {
+    color: White;
+}
+
+.ReminderBox {
+    border: #A51018 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.ReminderBox h1 {
+    color: #A51018;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ReminderBox h2 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ReminderBox p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ErrorBox {
+    border: dotted 1px black;
+    margin-top: 20px;
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 1px solid red;
+    background-color: pink;
+    padding-top: 0px;
+}
+
+#LoginDetailsSection {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#EmployeeLoginBox {
+    border: solid 1px #002E59;
+}
+
+#WhsLoginBox {
+    border: solid 1px #FB8B00;
+}
+
+#SupervisorLoginBox {
+    border: solid 1px #A51018;
+}
+
+#LoadingIndicatorControl {
+    background-color: transparent;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10000 !important;
+    cursor: wait;
+}
+
+#LoadingIndicatorControl .SubLoadingIndicator {
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    cursor: wait;
+    filter: alpha(opacity=0);
+    opacity: 0.0;
+}
+
+.InformationBox {
+    border: 1px #A51018 solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.InformationBox h1 {
+    font-size: 15px;
+}
+
+.InformationBox li {
+    margin-left: 25px;
+    list-style-type: square;
+}
+
+/*.InformationBox li:before {
+            content: "";
+            border-color: transparent #111;
+            border-style: solid;
+            border-width: 0.35em 0 0.35em 0.45em;
+            display: block;
+            height: 0;
+            width: 0;
+            left: -1em;
+            top: 0.9em;
+            position: relative;
+        }*/
+
+.InformationBox #YesButton {
+    width: 85px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    background: #009E4C;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.InformationBox #NoButton {
+    width: 85px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    background: #A51018;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.table-equal-column-2 td {
+    width: 50%;
+}

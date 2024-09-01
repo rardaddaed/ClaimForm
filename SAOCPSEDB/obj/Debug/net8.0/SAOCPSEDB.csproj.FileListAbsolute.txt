@@ -1,0 +1,17 @@
+C:\src\SAOCPSE\SAOCPSEDB\obj\Debug\net8.0\SAOCPSEDB.csproj.AssemblyReference.cache
+C:\src\SAOCPSE\SAOCPSEDB\obj\Debug\net8.0\SAOCPSEDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\SAOCPSE\SAOCPSEDB\obj\Debug\net8.0\SAOCPSEDB.AssemblyInfoInputs.cache
+C:\src\SAOCPSE\SAOCPSEDB\obj\Debug\net8.0\SAOCPSEDB.AssemblyInfo.cs
+C:\src\SAOCPSE\SAOCPSEDB\obj\Debug\net8.0\SAOCPSEDB.csproj.CoreCompileInputs.cache
+C:\src\SAOCPSE\SAOCPSEDB\bin\Debug\net8.0\SAOCPSEDB.deps.json
+C:\src\SAOCPSE\SAOCPSEDB\bin\Debug\net8.0\SAOCPSEDB.runtimeconfig.json
+C:\src\SAOCPSE\SAOCPSEDB\bin\Debug\net8.0\SAOCPSEDB.dll
+C:\src\SAOCPSE\SAOCPSEDB\bin\Debug\net8.0\SAOCPSEDB.pdb
+C:\src\SAOCPSE\SAOCPSEDB\bin\Debug\net8.0\ClaimFormBusiness.dll
+C:\src\SAOCPSE\SAOCPSEDB\bin\Debug\net8.0\ClaimFormBusiness.pdb
+C:\src\SAOCPSE\SAOCPSEDB\obj\Debug\net8.0\SAOCPSEDB.csproj.Up2Date
+C:\src\SAOCPSE\SAOCPSEDB\obj\Debug\net8.0\SAOCPSEDB.dll
+C:\src\SAOCPSE\SAOCPSEDB\obj\Debug\net8.0\refint\SAOCPSEDB.dll
+C:\src\SAOCPSE\SAOCPSEDB\obj\Debug\net8.0\SAOCPSEDB.pdb
+C:\src\SAOCPSE\SAOCPSEDB\obj\Debug\net8.0\SAOCPSEDB.genruntimeconfig.cache
+C:\src\SAOCPSE\SAOCPSEDB\obj\Debug\net8.0\ref\SAOCPSEDB.dll

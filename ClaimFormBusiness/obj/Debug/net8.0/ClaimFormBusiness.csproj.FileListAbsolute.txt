@@ -1,0 +1,12 @@
+C:\src\SAOCPSE\ClaimFormBusiness\bin\Debug\net8.0\ClaimFormBusiness.deps.json
+C:\src\SAOCPSE\ClaimFormBusiness\bin\Debug\net8.0\ClaimFormBusiness.dll
+C:\src\SAOCPSE\ClaimFormBusiness\bin\Debug\net8.0\ClaimFormBusiness.pdb
+C:\src\SAOCPSE\ClaimFormBusiness\obj\Debug\net8.0\ClaimFormBusiness.csproj.AssemblyReference.cache
+C:\src\SAOCPSE\ClaimFormBusiness\obj\Debug\net8.0\ClaimFormBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\SAOCPSE\ClaimFormBusiness\obj\Debug\net8.0\ClaimFormBusiness.AssemblyInfoInputs.cache
+C:\src\SAOCPSE\ClaimFormBusiness\obj\Debug\net8.0\ClaimFormBusiness.AssemblyInfo.cs
+C:\src\SAOCPSE\ClaimFormBusiness\obj\Debug\net8.0\ClaimFormBusiness.csproj.CoreCompileInputs.cache
+C:\src\SAOCPSE\ClaimFormBusiness\obj\Debug\net8.0\ClaimFormBusiness.dll
+C:\src\SAOCPSE\ClaimFormBusiness\obj\Debug\net8.0\refint\ClaimFormBusiness.dll
+C:\src\SAOCPSE\ClaimFormBusiness\obj\Debug\net8.0\ClaimFormBusiness.pdb
+C:\src\SAOCPSE\ClaimFormBusiness\obj\Debug\net8.0\ref\ClaimFormBusiness.dll

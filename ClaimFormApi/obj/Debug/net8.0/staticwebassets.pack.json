@@ -1,0 +1,225 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\Bootstrap5\\Bootstrap.skin",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\Bootstrap5\\Bootstrap.skin"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\Bootstrap5\\Custom.css",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\Bootstrap5\\Custom.css"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\Bootstrap5\\Fonts\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\Bootstrap5\\Fonts\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\Bootstrap5\\Fonts\\OpenSans-Regular.ttf",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\Bootstrap5\\Fonts\\OpenSans-Regular.ttf"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\Bootstrap5\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\Bootstrap5\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\SAPSClaimForm\\SAPSClaimForm.css",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\SAPSClaimForm\\SAPSClaimForm.css"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\SAPSClaimForm\\SAPSClaimForm.skin",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\SAPSClaimForm\\SAPSClaimForm.skin"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\AppThemes\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\Images\\HeaderLogoRed.png",
+      "PackagePath": "staticwebassets\\src\\assets\\Images\\HeaderLogoRed.png"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\Images\\HeaderLogoRedNoText.png",
+      "PackagePath": "staticwebassets\\src\\assets\\Images\\HeaderLogoRedNoText.png"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\Images\\cancel.gif",
+      "PackagePath": "staticwebassets\\src\\assets\\Images\\cancel.gif"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\Images\\logo.gif",
+      "PackagePath": "staticwebassets\\src\\assets\\Images\\logo.gif"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\Images\\logo_header.gif",
+      "PackagePath": "staticwebassets\\src\\assets\\Images\\logo_header.gif"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\Images\\rowwidget.GIF",
+      "PackagePath": "staticwebassets\\src\\assets\\Images\\rowwidget.GIF"
+    },
+    {
+      "Id": "C:\\src\\SAOCPSE\\ClaimFormApi\\wwwroot\\src\\assets\\react.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\react.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ClaimFormApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ClaimFormApi.props",
+      "PackagePath": "build\\ClaimFormApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ClaimFormApi.props",
+      "PackagePath": "buildMultiTargeting\\ClaimFormApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ClaimFormApi.props",
+      "PackagePath": "buildTransitive\\ClaimFormApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
