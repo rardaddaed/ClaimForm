@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-	  <ProjectReference Include="..\SAOCPSEDB\SAOCPSEDB.csproj" />
+    <ProjectReference Include="..\SAOCPSEDB\SAOCPSEDB.csproj" />
   </ItemGroup>
 
 </Project>

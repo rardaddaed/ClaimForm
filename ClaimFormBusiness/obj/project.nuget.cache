@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "mFBFHFY83gw=",
-  "success": false,
+  "dgSpecHash": "HNf/qrFqFyA=",
+  "success": true,
   "projectFilePath": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\ClaimFormBusiness.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shand\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
@@ -68,15 +68,5 @@
     "C:\\Users\\shand\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\shand\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  ClaimFormBusiness -> SAOCPSEDB -> ClaimFormBusiness.",
-      "libraryId": "ClaimFormBusiness",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

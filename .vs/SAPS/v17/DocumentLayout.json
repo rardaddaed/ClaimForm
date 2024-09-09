@@ -1,7 +1,75 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\src\\SAOCPSEClaimForm\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A6A50A-C006-4620-B644-D168FF1D9BC8}|ClaimFormBusiness\\ClaimFormBusiness.csproj|c:\\src\\saocpseclaimform\\claimformbusiness\\validators\\basevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A6A50A-C006-4620-B644-D168FF1D9BC8}|ClaimFormBusiness\\ClaimFormBusiness.csproj|solutionrelative:claimformbusiness\\validators\\basevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A6A50A-C006-4620-B644-D168FF1D9BC8}|ClaimFormBusiness\\ClaimFormBusiness.csproj|c:\\src\\saocpseclaimform\\claimformbusiness\\requests\\claimformsubmitrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A6A50A-C006-4620-B644-D168FF1D9BC8}|ClaimFormBusiness\\ClaimFormBusiness.csproj|solutionrelative:claimformbusiness\\requests\\claimformsubmitrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1CEFB2-EA86-45A9-B877-E60C296D3771}|ClaimFormApi\\ClaimFormApi.csproj|c:\\src\\saocpseclaimform\\claimformapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F1CEFB2-EA86-45A9-B877-E60C296D3771}|ClaimFormApi\\ClaimFormApi.csproj|solutionrelative:claimformapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF26C06-DDBE-484E-9783-1C15AC50ACB1}|SAOCPSEDB\\SAOCPSEDB.csproj|c:\\src\\saocpseclaimform\\saocpsedb\\models\\sbcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF26C06-DDBE-484E-9783-1C15AC50ACB1}|SAOCPSEDB\\SAOCPSEDB.csproj|solutionrelative:saocpsedb\\models\\sbcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1CEFB2-EA86-45A9-B877-E60C296D3771}|ClaimFormApi\\ClaimFormApi.csproj|c:\\src\\saocpseclaimform\\claimformapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1CEFB2-EA86-45A9-B877-E60C296D3771}|ClaimFormApi\\ClaimFormApi.csproj|solutionrelative:claimformapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1CEFB2-EA86-45A9-B877-E60C296D3771}|ClaimFormApi\\ClaimFormApi.csproj|c:\\src\\saocpseclaimform\\claimformapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F1CEFB2-EA86-45A9-B877-E60C296D3771}|ClaimFormApi\\ClaimFormApi.csproj|solutionrelative:claimformapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A6A50A-C006-4620-B644-D168FF1D9BC8}|ClaimFormBusiness\\ClaimFormBusiness.csproj|c:\\src\\saocpseclaimform\\claimformbusiness\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A6A50A-C006-4620-B644-D168FF1D9BC8}|ClaimFormBusiness\\ClaimFormBusiness.csproj|solutionrelative:claimformbusiness\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A6A50A-C006-4620-B644-D168FF1D9BC8}|ClaimFormBusiness\\ClaimFormBusiness.csproj|c:\\src\\saocpseclaimform\\claimformbusiness\\businessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A6A50A-C006-4620-B644-D168FF1D9BC8}|ClaimFormBusiness\\ClaimFormBusiness.csproj|solutionrelative:claimformbusiness\\businessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A6A50A-C006-4620-B644-D168FF1D9BC8}|ClaimFormBusiness\\ClaimFormBusiness.csproj|c:\\src\\saocpseclaimform\\claimformbusiness\\dtos\\clmfrmclaimxdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6A6A50A-C006-4620-B644-D168FF1D9BC8}|ClaimFormBusiness\\ClaimFormBusiness.csproj|solutionrelative:claimformbusiness\\dtos\\clmfrmclaimxdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A6A50A-C006-4620-B644-D168FF1D9BC8}|ClaimFormBusiness\\ClaimFormBusiness.csproj|c:\\src\\saocpseclaimform\\claimformbusiness\\claimformbusiness.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B6A6A50A-C006-4620-B644-D168FF1D9BC8}|ClaimFormBusiness\\ClaimFormBusiness.csproj|solutionrelative:claimformbusiness\\claimformbusiness.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF26C06-DDBE-484E-9783-1C15AC50ACB1}|SAOCPSEDB\\SAOCPSEDB.csproj|c:\\src\\saocpseclaimform\\saocpsedb\\saocpsedb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6DF26C06-DDBE-484E-9783-1C15AC50ACB1}|SAOCPSEDB\\SAOCPSEDB.csproj|solutionrelative:saocpsedb\\saocpsedb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EB7746B-AA9E-49D0-9A09-983104B414CA}|ClaimFormRepository\\ClaimFormRepository.csproj|c:\\src\\saocpseclaimform\\claimformrepository\\claimformrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EB7746B-AA9E-49D0-9A09-983104B414CA}|ClaimFormRepository\\ClaimFormRepository.csproj|solutionrelative:claimformrepository\\claimformrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF26C06-DDBE-484E-9783-1C15AC50ACB1}|SAOCPSEDB\\SAOCPSEDB.csproj|c:\\src\\saocpseclaimform\\saocpsedb\\claimform\\logic\\logicvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF26C06-DDBE-484E-9783-1C15AC50ACB1}|SAOCPSEDB\\SAOCPSEDB.csproj|solutionrelative:saocpsedb\\claimform\\logic\\logicvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF26C06-DDBE-484E-9783-1C15AC50ACB1}|SAOCPSEDB\\SAOCPSEDB.csproj|c:\\src\\saocpseclaimform\\saocpsedb\\claimform\\forms\\claim\\abstractform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF26C06-DDBE-484E-9783-1C15AC50ACB1}|SAOCPSEDB\\SAOCPSEDB.csproj|solutionrelative:saocpsedb\\claimform\\forms\\claim\\abstractform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1CEFB2-EA86-45A9-B877-E60C296D3771}|ClaimFormApi\\ClaimFormApi.csproj|c:\\src\\saocpseclaimform\\claimformapi\\controllers\\bsbsearchdialogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1CEFB2-EA86-45A9-B877-E60C296D3771}|ClaimFormApi\\ClaimFormApi.csproj|solutionrelative:claimformapi\\controllers\\bsbsearchdialogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1CEFB2-EA86-45A9-B877-E60C296D3771}|ClaimFormApi\\ClaimFormApi.csproj|c:\\src\\saocpseclaimform\\claimformapi\\controllers\\claimformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1CEFB2-EA86-45A9-B877-E60C296D3771}|ClaimFormApi\\ClaimFormApi.csproj|solutionrelative:claimformapi\\controllers\\claimformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +77,229 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\ClaimFormApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ClaimFormApi\\appsettings.json",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\ClaimFormApi\\appsettings.json",
+              "RelativeToolTip": "ClaimFormApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-09T11:18:35.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\ClaimFormApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ClaimFormApi\\appsettings.Development.json",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\ClaimFormApi\\appsettings.Development.json",
+              "RelativeToolTip": "ClaimFormApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-09T11:15:06.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "ClaimFormBusiness\\MappingProfile.cs",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\MappingProfile.cs",
+              "RelativeToolTip": "ClaimFormBusiness\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T11:12:21.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Microsoft.NET.Sdk.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.targets",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAAwBsBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-09T11:11:57.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClmfrmClaimXDto.cs",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\Dtos\\ClmfrmClaimXDto.cs",
+              "RelativeDocumentMoniker": "ClaimFormBusiness\\Dtos\\ClmfrmClaimXDto.cs",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\Dtos\\ClmfrmClaimXDto.cs",
+              "RelativeToolTip": "ClaimFormBusiness\\Dtos\\ClmfrmClaimXDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T10:34:39.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\ClaimFormApi\\Program.cs",
+              "RelativeDocumentMoniker": "ClaimFormApi\\Program.cs",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\ClaimFormApi\\Program.cs",
+              "RelativeToolTip": "ClaimFormApi\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T11:08:25.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BusinessModule.cs",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\BusinessModule.cs",
+              "RelativeDocumentMoniker": "ClaimFormBusiness\\BusinessModule.cs",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\BusinessModule.cs",
+              "RelativeToolTip": "ClaimFormBusiness\\BusinessModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T11:12:29.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SAOCPSEDB",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\SAOCPSEDB\\SAOCPSEDB.csproj",
+              "RelativeDocumentMoniker": "SAOCPSEDB\\SAOCPSEDB.csproj",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\SAOCPSEDB\\SAOCPSEDB.csproj",
+              "RelativeToolTip": "SAOCPSEDB\\SAOCPSEDB.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-09T11:10:02.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseValidator.cs",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\Validators\\BaseValidator.cs",
+              "RelativeDocumentMoniker": "ClaimFormBusiness\\Validators\\BaseValidator.cs",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\Validators\\BaseValidator.cs",
+              "RelativeToolTip": "ClaimFormBusiness\\Validators\\BaseValidator.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T10:02:14.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClaimFormBusiness",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\ClaimFormBusiness.csproj",
+              "RelativeDocumentMoniker": "ClaimFormBusiness\\ClaimFormBusiness.csproj",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\ClaimFormBusiness.csproj",
+              "RelativeToolTip": "ClaimFormBusiness\\ClaimFormBusiness.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-09T10:01:52.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LogicValidator.cs",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\SAOCPSEDB\\ClaimForm\\Logic\\LogicValidator.cs",
+              "RelativeDocumentMoniker": "SAOCPSEDB\\ClaimForm\\Logic\\LogicValidator.cs",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\SAOCPSEDB\\ClaimForm\\Logic\\LogicValidator.cs",
+              "RelativeToolTip": "SAOCPSEDB\\ClaimForm\\Logic\\LogicValidator.cs",
+              "ViewState": "AgIAAEcCAAAAAAAAAAAiwFkCAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T11:13:46.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClaimFormSubmitRequest.cs",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\Requests\\ClaimFormSubmitRequest.cs",
+              "RelativeDocumentMoniker": "ClaimFormBusiness\\Requests\\ClaimFormSubmitRequest.cs",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\ClaimFormBusiness\\Requests\\ClaimFormSubmitRequest.cs",
+              "RelativeToolTip": "ClaimFormBusiness\\Requests\\ClaimFormSubmitRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAMwCoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T10:26:27.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SbcDbContext.cs",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\SAOCPSEDB\\Models\\SbcDbContext.cs",
+              "RelativeDocumentMoniker": "SAOCPSEDB\\Models\\SbcDbContext.cs",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\SAOCPSEDB\\Models\\SbcDbContext.cs",
+              "RelativeToolTip": "SAOCPSEDB\\Models\\SbcDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T11:15:36.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BSBSearchDialogController.cs",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\ClaimFormApi\\Controllers\\BSBSearchDialogController.cs",
+              "RelativeDocumentMoniker": "ClaimFormApi\\Controllers\\BSBSearchDialogController.cs",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\ClaimFormApi\\Controllers\\BSBSearchDialogController.cs",
+              "RelativeToolTip": "ClaimFormApi\\Controllers\\BSBSearchDialogController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA4wBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T11:13:27.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AbstractForm.cs",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\SAOCPSEDB\\ClaimForm\\Forms\\Claim\\AbstractForm.cs",
+              "RelativeDocumentMoniker": "SAOCPSEDB\\ClaimForm\\Forms\\Claim\\AbstractForm.cs",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\SAOCPSEDB\\ClaimForm\\Forms\\Claim\\AbstractForm.cs",
+              "RelativeToolTip": "SAOCPSEDB\\ClaimForm\\Forms\\Claim\\AbstractForm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwGUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T11:08:54.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClaimFormController.cs",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\ClaimFormApi\\Controllers\\ClaimFormController.cs",
+              "RelativeDocumentMoniker": "ClaimFormApi\\Controllers\\ClaimFormController.cs",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\ClaimFormApi\\Controllers\\ClaimFormController.cs",
+              "RelativeToolTip": "ClaimFormApi\\Controllers\\ClaimFormController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAC8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T11:07:15.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClaimFormRepository.cs",
+              "DocumentMoniker": "C:\\src\\SAOCPSEClaimForm\\ClaimFormRepository\\ClaimFormRepository.cs",
+              "RelativeDocumentMoniker": "ClaimFormRepository\\ClaimFormRepository.cs",
+              "ToolTip": "C:\\src\\SAOCPSEClaimForm\\ClaimFormRepository\\ClaimFormRepository.cs",
+              "RelativeToolTip": "ClaimFormRepository\\ClaimFormRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T10:26:41.19Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -9,7 +9,6 @@
       "SAOCPSEDB/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "ClaimFormBusiness": "1.0.0",
           "FluentValidation": "11.9.2",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.EntityFrameworkCore": "8.0.7",
@@ -20,17 +19,6 @@
         },
         "runtime": {
           "SAOCPSEDB.dll": {}
-        }
-      },
-      "Autofac/8.0.0": {
-        "dependencies": {
-          "System.Diagnostics.DiagnosticSource": "7.0.2"
-        },
-        "runtime": {
-          "lib/net8.0/Autofac.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.0"
-          }
         }
       },
       "AutoMapper/13.0.1": {
@@ -47,7 +35,7 @@
       "Azure.Core/1.35.0": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
-          "System.Diagnostics.DiagnosticSource": "7.0.2",
+          "System.Diagnostics.DiagnosticSource": "6.0.1",
           "System.Memory.Data": "1.0.2",
           "System.Numerics.Vectors": "4.5.0",
           "System.Text.Encodings.Web": "8.0.0",
@@ -115,26 +103,6 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
-          }
-        }
-      },
-      "MediatR/12.4.0": {
-        "dependencies": {
-          "MediatR.Contracts": "2.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/MediatR.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.4.0.0"
-          }
-        }
-      },
-      "MediatR.Contracts/2.0.1": {
-        "runtime": {
-          "lib/netstandard2.0/MediatR.Contracts.dll": {
-            "assemblyVersion": "2.0.1.0",
-            "fileVersion": "2.0.1.0"
           }
         }
       },
@@ -377,7 +345,7 @@
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.35.0",
           "Microsoft.SqlServer.Server": "1.0.0",
           "System.Configuration.ConfigurationManager": "6.0.1",
-          "System.Diagnostics.DiagnosticSource": "7.0.2",
+          "System.Diagnostics.DiagnosticSource": "6.0.1",
           "System.Runtime.Caching": "6.0.0",
           "System.Security.Cryptography.Cng": "5.0.0",
           "System.Security.Principal.Windows": "5.0.0",
@@ -776,7 +744,11 @@
           }
         }
       },
-      "System.Diagnostics.DiagnosticSource/7.0.2": {},
+      "System.Diagnostics.DiagnosticSource/6.0.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
       "System.Drawing.Common/6.0.0": {
         "dependencies": {
           "Microsoft.Win32.SystemEvents": "6.0.0"
@@ -940,19 +912,6 @@
             "fileVersion": "6.0.21.52210"
           }
         }
-      },
-      "ClaimFormBusiness/1.0.0": {
-        "dependencies": {
-          "Autofac": "8.0.0",
-          "FluentValidation": "11.9.2",
-          "MediatR": "12.4.0"
-        },
-        "runtime": {
-          "ClaimFormBusiness.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -961,13 +920,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "Autofac/8.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-qxVqJcl3fixxa5aZc9TmIuYTwooI9GCL5RzfUiTZtTlbAF3NcWz7bPeEyJEAyS/0qGhSyGnXeku2eiu/7L+3qw==",
-      "path": "autofac/8.0.0",
-      "hashPath": "autofac.8.0.0.nupkg.sha512"
     },
     "AutoMapper/13.0.1": {
       "type": "package",
@@ -1017,20 +969,6 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
-    },
-    "MediatR/12.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-s8xhhvsTQqt7jI1XeVqcniiph/QoRmJb1qxVgk7UFpAgOzpzZ0VTl8zV+lFJgxISVqZuJRjmxF+P3AuHyelCrg==",
-      "path": "mediatr/12.4.0",
-      "hashPath": "mediatr.12.4.0.nupkg.sha512"
-    },
-    "MediatR.Contracts/2.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
-      "path": "mediatr.contracts/2.0.1",
-      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
@@ -1375,12 +1313,12 @@
       "path": "system.configuration.configurationmanager/6.0.1",
       "hashPath": "system.configuration.configurationmanager.6.0.1.nupkg.sha512"
     },
-    "System.Diagnostics.DiagnosticSource/7.0.2": {
+    "System.Diagnostics.DiagnosticSource/6.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hYr3I9N9811e0Bjf2WNwAGGyTuAFbbTgX1RPLt/3Wbm68x3IGcX5Cl75CMmgT6WlNwLQ2tCCWfqYPpypjaf2xA==",
-      "path": "system.diagnostics.diagnosticsource/7.0.2",
-      "hashPath": "system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512"
+      "sha512": "sha512-KiLYDu2k2J82Q9BJpWiuQqCkFjRBWVq4jDzKKWawVi9KWzyD0XG3cmfX0vqTQlL14Wi9EufJrbL0+KCLTbqWiQ==",
+      "path": "system.diagnostics.diagnosticsource/6.0.1",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512"
     },
     "System.Drawing.Common/6.0.0": {
       "type": "package",
@@ -1549,11 +1487,6 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
-    },
-    "ClaimFormBusiness/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

@@ -2,6 +2,7 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using ClaimFormBusiness;
 using ClaimFormRepository;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using SAOCPSEDB;
 using SAOCPSEDB.ClaimForm.Dialogs;
@@ -53,6 +54,7 @@ builder.Services.AddAutoMapper(x =>
 });
 
 builder.Services.AddMediatR(c => c.RegisterServicesFromAssembly(typeof(Program).Assembly));
+builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
 
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>

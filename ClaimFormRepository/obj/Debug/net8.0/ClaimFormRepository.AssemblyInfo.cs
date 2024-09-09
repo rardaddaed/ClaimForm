@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClaimFormRepository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c89138ff17b6de78dd3f5be727719f4f118dca0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5af7f157d935ea24fc3542256026682137f026ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClaimFormRepository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClaimFormRepository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
