@@ -23,19 +23,25 @@ namespace ClaimFormBusiness.Validators
         .InclusiveBetween(startDate, endDate)
         .WithMessage("");
     }
+    
+    public IRuleBuilderOptions<T, TProp> Mandatory<TProp>(Expression<Func<T, TProp>> propertyAccessor, Func<T, bool> condition)
+    {
+      //return When(x => condition(x), () => RuleFor(propertyAccessor).NotNull());
+      return RuleFor(propertyAccessor).NotNull()
+        .When(condition);
+    }
 
+    public IRuleBuilderOptions<T, TProp> Mandatory<TProp>(Expression<Func<T, TProp>> propertyAccessor)
+    {
+      return RuleFor(propertyAccessor).NotNull();
+    }
     //public IRuleBuilderOptionsConditions<T, string> RuleForComplicated(Expression<Func<T, string>> propertyAccessor)
     //{
     //  return RuleFor(propertyAccessor)
     //    .CustomAsync( async (p, context, cancellationToken) =>
     //    {
-          
+
     //    });
     //}
-    
-    public IConditionBuilder Mandatory<TProp>(Expression<Func<T, TProp>> propertyAccessor, Func<T, bool> condition)
-    {
-      return When(x => condition(x), () => RuleFor(propertyAccessor).NotNull());
-    }
   }
 }

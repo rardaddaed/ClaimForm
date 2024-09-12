@@ -6,8 +6,8 @@ using Microsoft.Extensions.Primitives;
 using Microsoft.SqlServer.Server;
 using Newtonsoft.Json;
 using SAOCPSEDB.ClaimForm.Forms;
-using SAOCPSEDB.ClaimForm.Forms.Claim;
-using SAOCPSEDB.ClaimForm.Logic;
+//using SAOCPSEDB.ClaimForm.Forms.Claim;
+//using SAOCPSEDB.ClaimForm.Logic;
 using SAOCPSEDB.Models;
 using MediatR;
 using ClaimFormBusiness.Requests;
@@ -21,7 +21,7 @@ namespace ClaimFormApi.Controllers
     {
         private readonly IMediator Mediator;
         // TEMP FOR TESTING. THIS MEANS ONLY ONE USER CAN CREATE FORM AT A TIME
-        public static ClaimDetailsForm ClaimDetailsForm { get; set; }
+        //public static ClaimDetailsForm ClaimDetailsForm { get; set; }
 
 
         private readonly SbcDbContext _context;
@@ -29,24 +29,24 @@ namespace ClaimFormApi.Controllers
         public ClaimFormController(SbcDbContext context, IMediator mediator)
         {
             _context = context;
-            if(ClaimDetailsForm == null)
-                ClaimDetailsForm = new ClaimDetailsForm(_context);
+            //if(ClaimDetailsForm == null)
+            //    ClaimDetailsForm = new ClaimDetailsForm(_context);
             Mediator = mediator;
         }
 
-        [HttpGet]
-        public IEnumerable GetInit()
-        {
-            ClaimDetailsForm = new ClaimDetailsForm(_context);
-            return ClaimDetailsForm.ToJson();
-        }
+        //[HttpGet]
+        //public IEnumerable GetInit()
+        //{
+        //    ClaimDetailsForm = new ClaimDetailsForm(_context);
+        //    return ClaimDetailsForm.ToJson();
+        //}
 
-        [HttpPost("Callback")]
-        public IEnumerable PostCallback(CallbackDto callback)
-        {
-            ClaimDetailsForm.Update(callback);
-            return ClaimDetailsForm.GetJsonDelta();
-        }
+        //[HttpPost("Callback")]
+        //public IEnumerable PostCallback(CallbackDto callback)
+        //{
+        //    ClaimDetailsForm.Update(callback);
+        //    return ClaimDetailsForm.GetJsonDelta();
+        //}
 
         [HttpPost]
         public async Task<ActionResult> Submit([FromBody] ClmfrmClaimXDto clmfrmClaimXDto)

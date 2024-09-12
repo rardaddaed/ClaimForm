@@ -1,11 +1,12 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using ClaimFormApi.Middleware;
 using ClaimFormBusiness;
 using ClaimFormRepository;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using SAOCPSEDB;
-using SAOCPSEDB.ClaimForm.Dialogs;
+//using SAOCPSEDB.ClaimForm.Dialogs;
 using SAOCPSEDB.Models;
 using SAOCPSEDB.Services;
 
@@ -46,14 +47,17 @@ builder.Services.AddDbContext<SbcDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")), optionsLifetime: ServiceLifetime.Singleton);
 
 builder.Services.AddTransient<IDataPreloadService, DataPreloadService>();
-builder.Services.AddScoped<BSBSearchDialog>();
+//builder.Services.AddScoped<BSBSearchDialog>();
 
 builder.Services.AddAutoMapper(x =>
 {
     x.AddProfile<MappingProfile>();
 });
 
-builder.Services.AddMediatR(c => c.RegisterServicesFromAssembly(typeof(Program).Assembly));
+builder.Services.AddMediatR(c => {
+  c.RegisterServicesFromAssembly(typeof(Program).Assembly);
+  c.AddOpenBehavior(typeof(ValidationBehavior<,>));
+});
 builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
 
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());

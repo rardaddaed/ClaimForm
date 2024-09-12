@@ -26,19 +26,8 @@ namespace ClaimFormBusiness.Requests
   {
     public ClaimFormSubmitValidator()
     {
-      List<Expression<Func<ClaimFormSubmitRequest, object>>> aaa = new List<Expression<Func<ClaimFormSubmitRequest, object>>>
-    {
-      x => x.ClmfrmClaimXDto.Status,
-      x => x.ClmfrmClaimXDto.ClmfrmClaimdocumentXes
-    };
-
-      foreach (var x in aaa)
-      {
-        RuleFor(x).NotNull().WithMessage("");
-      }
-
       RuleForGreaterThanOrEqualTo(x => x.ClmfrmClaimXDto.Whoisenteringclaimform, 10);
-      Mandatory(x => x.ClmfrmClaimXDto.ClmfrmClaimdocumentXes, y => true);
+      Mandatory(x => x.ClmfrmClaimXDto.Workeraddress1, y => y.ClmfrmClaimXDto.Workergender == 0);
     }
   }
 

@@ -25,8 +25,8 @@ namespace ClaimFormBusiness.Dtos
         public string? Workermobilephone { get; set; }
         public string? Workerworkphone { get; set; }
         public string? Workeremail { get; set; }
-        public virtual OsOrgstructure? Orgstruct { get; set; }
-        public virtual ParParty? Workerparty { get; set; }
-        public virtual ICollection<ClmfrmClaimdocumentX> ClmfrmClaimdocumentXes { get; set; } = new List<ClmfrmClaimdocumentX>();
+        //public virtual OsOrgstructure? Orgstruct { get; set; }
+        //public virtual ParParty? Workerparty { get; set; }
+        //public virtual ICollection<ClmfrmClaimdocumentX> ClmfrmClaimdocumentXes { get; set; } = new List<ClmfrmClaimdocumentX>();
     }
 }

@@ -15,7 +15,8 @@ namespace ClaimFormBusiness
             var asm = Assembly.GetExecutingAssembly();
             builder.RegisterAssemblyTypes(asm)
               .Where(x => x.Name.EndsWith("Service")
-              || x.Name.EndsWith("Validator"))
+              || x.Name.EndsWith("Validator")
+              || x.Name.EndsWith("Handler"))
               .AsImplementedInterfaces()
               .InstancePerLifetimeScope();
 
