@@ -22,7 +22,7 @@ namespace ClaimFormRepository
 
         public async Task AddModelAsync<TModel, TDto>(DbSet<TModel> dbSet, TDto dto) where TModel : class
         {
-            var model = Mapper.Map<TModel>(dto);
+            var model = Mapper.Map<TDto, TModel>(dto);
             if (model != null)
                 dbSet.Add(model);
 

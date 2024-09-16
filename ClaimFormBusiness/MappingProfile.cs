@@ -4,11 +4,12 @@ using SAOCPSEDB.Models;
 
 namespace ClaimFormBusiness
 {
-    public class MappingProfile : Profile
+  public class MappingProfile : Profile
+  {
+    public MappingProfile()
     {
-        public MappingProfile()
-        {
-            CreateMap<ClmfrmClaimX, ClmfrmClaimXDto>();
-        }
+      CreateMap<ClmfrmClaimX, ClmfrmClaimXDto>().ReverseMap();
+      CreateMap<ParParty, ParPartyDto>().ReverseMap();
     }
+  }
 }

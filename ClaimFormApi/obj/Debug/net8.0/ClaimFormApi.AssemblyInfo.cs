@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClaimFormApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f9c768b6b014179a526f84d623cc5ea9cd25f9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8aeadddaa784c0a8d3337dbc5e1fcd715a6628f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClaimFormApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClaimFormApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

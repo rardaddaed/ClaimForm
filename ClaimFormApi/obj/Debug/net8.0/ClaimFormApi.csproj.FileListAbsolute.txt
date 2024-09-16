@@ -271,12 +271,8 @@ C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFormApi.GeneratedMSBu
 C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFormApi.AssemblyInfoInputs.cache
 C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFormApi.AssemblyInfo.cs
 C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFormApi.csproj.CoreCompileInputs.cache
-C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFormApi.MvcApplicationPartsAssemblyInfo.cs
 C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFormApi.MvcApplicationPartsAssemblyInfo.cache
 C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFormApi.sourcelink.json
-C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFormApi.dll
-C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\refint\ClaimFormApi.dll
-C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFormApi.pdb
 C:\src\SAOCPSEClaimForm\ClaimFormApi\bin\Debug\net8.0\appsettings.Development.json
 C:\src\SAOCPSEClaimForm\ClaimFormApi\bin\Debug\net8.0\appsettings.json
 C:\src\SAOCPSEClaimForm\ClaimFormApi\bin\Debug\net8.0\ClaimFormApi.staticwebassets.runtime.json
@@ -533,5 +529,8 @@ C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\staticwebassets\msbuild.bu
 C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\staticwebassets.pack.json
 C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\scopedcss\bundle\ClaimFormApi.styles.css
 C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFor.CEE9C2F3.Up2Date
+C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFormApi.dll
+C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\refint\ClaimFormApi.dll
+C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFormApi.pdb
 C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ClaimFormApi.genruntimeconfig.cache
 C:\src\SAOCPSEClaimForm\ClaimFormApi\obj\Debug\net8.0\ref\ClaimFormApi.dll

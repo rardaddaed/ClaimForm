@@ -26,8 +26,9 @@ namespace ClaimFormBusiness.Requests
   {
     public ClaimFormSubmitValidator()
     {
-      RuleForGreaterThanOrEqualTo(x => x.ClmfrmClaimXDto.Whoisenteringclaimform, 10);
-      Mandatory(x => x.ClmfrmClaimXDto.Workeraddress1, y => y.ClmfrmClaimXDto.Workergender == 0);
+      Mandatory(x => x.ClmfrmClaimXDto.Workeraddress1, y => y.ClmfrmClaimXDto.Workerstate == "1");
+      // TODO: check dto is null?
+      DefineSuburb(x => x.ClmfrmClaimXDto.Workerstate, x => x.ClmfrmClaimXDto.Workersuburb, x => x.ClmfrmClaimXDto.Workerpostcode);
     }
   }
 
